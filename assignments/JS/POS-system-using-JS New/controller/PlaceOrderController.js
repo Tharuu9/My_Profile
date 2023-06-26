@@ -113,7 +113,7 @@ $("#btnAddToCart").click(function () {
     let Oqty=parseInt($("#txtOrderQty").val());
     if($('#txtOrderQty').val()!=""){
         if(qty<Oqty){
-            alert("Not Available This QTY");
+            alert("Not Available This QTY..!");
         }else{
             qtyUpdate();
             addToCart();
@@ -123,7 +123,7 @@ $("#btnAddToCart").click(function () {
             $("#txtItemIDForOrder,#txtItemNameForOrder,#txtQTYONHand,#txtOrderQty,#txtItemPriceForOrder").val("")
         }
     }else{
-        alert("Please Enter Order Qty");
+        alert("Please Enter Order Qty..!");
     }
 });
 
@@ -207,7 +207,7 @@ function placeOrder() {
         for (var i of cartDB){
             orderDetailsDB.push(new OrderDetailsDTO(i.getCartOID(),i.getcartICode(),i.getcartIPrice(),i.getcartOQty(),i.getTotal()));
         }
-        alert("Successful")
+        alert("Order Successfully...!")
     }
 }
 

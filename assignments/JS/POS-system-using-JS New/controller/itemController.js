@@ -13,7 +13,7 @@ function saveItem() {
 }
 
 $("#btnSaveItem").click(function () {
-    if (confirm("Are You sure, you want to Save")){
+    if (confirm("Are You sure, you want to Save..!")){
         saveItem();
         loadAllItems();
         clearItemField();
@@ -37,7 +37,7 @@ function updateItem(){
 }
 
 $("#btnUpdateItem").click(function () {
-    if (confirm("Are You sure, you want to update this Item")){
+    if (confirm("Are You sure, you want to update this Item..!")){
         updateItem();
         loadAllItems();
         clearItemField();
@@ -85,9 +85,9 @@ $("#btnDeleteItem").click(function () {
     if (option){
         let erase = deleteItem();
         if (erase){
-            alert("Item Deleted");
+            alert("Item Deleted..!");
         }else{
-            alert("Something Went wrong , Try Again");
+            alert("Something Went wrong , Try Again!");
         }
     }
     loadAllItems();

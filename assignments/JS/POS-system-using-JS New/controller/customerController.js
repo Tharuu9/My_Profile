@@ -1,5 +1,5 @@
 $("#btnSaveCustomer").click(function () {
-    if (confirm("Are You sure, you want to Save")){
+    if (confirm("Are You sure, you want to Save..!")){
         saveCustomer();
         clearAll();
         loadAllCustomers();
@@ -15,11 +15,11 @@ $("#btnDeleteCustomer").click(function () {
     if (option) {
         let remove = deleteCustomer(id);
         if (remove) {
-            alert("Customer Deleted");
+            alert("Customer Deleted..!");
             clearAll();
             generateCusId();
         } else {
-            alert("Something Went Wrong , Try Again");
+            alert("Something Went Wrong , Try Again!");
         }
     }
     loadAllCustomers();
@@ -139,7 +139,7 @@ function updateCustomer(){
 }
 
 $("#btnUpdateCustomer").click(function () {
-    if (confirm("Are You sure, you want to update this customer")){
+    if (confirm("Are You sure, you want to update this customer..!!")){
         updateCustomer();
         loadAllCustomers();
         clearAll();
@@ -158,7 +158,7 @@ $("#btnUpdateCustomer").click(function () {
 const cusIDRegEx = /^(C00-)[0-9]{1,3}$/;
 
 const cusNameRegEx = /^[A-z ]{5,20}$/;
-const cusAddressRegEx = /^[0-9/A-z. ,]{7,}$/;
+const cusAddressRegEx = /^[0-9/A-z. ,]{5,}$/;
 const cusSalaryRegEx = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
 
 
@@ -233,7 +233,7 @@ function formValid() {
             }
         } else {
             $("#txtAddress").css('border', '2px solid red');
-            $("#lblcusaddress").text("Wrong Format: Minimum 7");
+            $("#lblcusaddress").text("Wrong Format: Minimum 5");
             return false;
         }
     } else {

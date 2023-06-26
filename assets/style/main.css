@@ -293,7 +293,7 @@ body > main > section {
 }
 /*home*/
 #homeSection {
-    background-color: rgb(47, 47, 75);
+    background-color: rgba(32, 44, 49, 0.87);
     position: fixed;
     padding: 0;
     width: 100%;
@@ -334,7 +334,7 @@ body > main > section {
     background-position: center;
     height: 70vh;
     width: 50vw;
-    border-radius: 100vw;
+    border-radius: 50vw;
     /*margin-left: 300px;*/
     box-shadow: -6px 8px 51px -1px #020904;
     grid-column: 7/10;
@@ -342,12 +342,13 @@ body > main > section {
 
 #homeSection > div > h3 {
     text-align: left;
+    color: #0c0c10;
 }
 
 #homeSection > div > h5 {
     text-align: left;
     margin: 2.45rem 0;
-    color: #020904;
+    color: #ffffff;
     font-size: 5rem;
     font-weight: bolder;
 }
@@ -355,7 +356,7 @@ body > main > section {
 #homeSection > div > h1 {
     padding-left:0;
     margin:0;
-    color: #90de10;
+    color: #92a3d0;
 }
 
 /*about me-----------------------------------------start*/
@@ -364,7 +365,7 @@ body > main > section {
 #aboutSection {
     margin-top: 100vh;
     height: 85vh;
-    background-color: rgba(26, 19, 19, 0.93);
+    background-color: rgba(75, 50, 30, 0.93);
 }
 
 #aboutSection > article {
@@ -397,6 +398,7 @@ body > main > section {
 
 /*education-----------------------------------------------------------start*/
 #sectionEdu{
+    background-color: rgba(12, 65, 40, 0.73);
 
 }
 
@@ -473,7 +475,9 @@ body > main > section {
 /*Education ------------------------------------------------------------------end*/
 
 /*Skill and tools ------------------------------------------------------------start*/
-
+#sectionSkills{
+    background-color: rgba(82, 62, 2, 0.3);
+}
 #sectionSkills img {
     scale: 100%;
     transition: 0.2s all;
@@ -499,7 +503,9 @@ body > main > section {
 /*skill and tools ----------------------------------------------------------end*/
 
 /*projects ----------------------------------------------------------------start*/
-
+#sectionProjects{
+    background-color: rgba(72, 51, 24, 0.89);
+}
 #sectionProjects > section { /*flex container*/
     display: flex;
     padding-bottom: 30rem;
@@ -593,8 +599,16 @@ body > main > section {
 
 /*projects ----------------------------------------------------end*/
 
+#sectionAssignments{
+    background-color: darkslategrey;
+}
+
 /*Contact me --------------------------------------------------start*/
+#sectionContact{
+    background-color: #454040;
+}
 #sectionContact > div {
+    box-shadow: black;
     background: url("../image/MyLocation.png");
     background-position: center;
     height: 40rem;
