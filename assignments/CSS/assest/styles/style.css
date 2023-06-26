@@ -1,0 +1,71 @@
+h2{
+    color: darkblue;
+    text-decoration: underline ;
+    color: white;
+}
+
+p{
+    color: darkblue;
+    font-size: 20px;
+}
+.main-text{
+    color: cornflowerblue;
+}
+#first-p{
+    background-color:black;
+}
+*{
+    background-color: white;
+}
+p[id]{
+    font-weight: bolder;
+}
+a[href="assest/docs/ijse.XML"]{
+    color: honeydew;
+}
+
+a[href$=".pdf"]{
+    color: black;
+}
+
+a[href^="http"]{
+    color: green;
+}
+
+a[href*="image"]{
+    color: crimson;
+}
+
+input[type="text"]{
+    background-color: aqua;
+}
+ul{
+    color: brown;
+}
+
+li:first-child{
+    color: blue;
+}
+
+li:last-child{
+    color: red;
+}
+
+li:nth-child(2){
+    color: green;
+}
+
+.box{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    border: 5px red;
+    border-radius: 90%;
+}
+
+.box:hover{
+    background-color: orange;
+    border: 20px red;
+
+}
+

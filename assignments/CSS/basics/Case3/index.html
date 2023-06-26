@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 3</title>
+    <link rel="stylesheet" href="asset/style/normalize.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+
+    * {
+      font-size: 10px;
+    }
+
+      ::-webkit-scrollbar {
+        width: 0;
+      }
+
+      /*main----------------------------------------*/
+      main {
+        width: 100%;
+        height: 100%;
+      }
+      main > section {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+      }
+      /*1st circle*/
+      main > section:nth-child(1) > div {
+        width: 15vw;
+        height: 15vw;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: purple;
+        border-radius: 100%;
+      }
+      /*hello text*/
+      main > section:nth-child(1) > div > h1 {
+        color: white;
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 46px;
+        height: 17px;
+      }
+
+      /*2nd circle*/
+      main > section:nth-child(2) > div {
+        width: 15vw;
+        height: 15vw;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: cornflowerblue;
+        border-radius: 100%;
+      }
+      /*welcome to text*/
+      main > section:nth-child(2) > div > h1 {
+        color: white;
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 107px;
+        height: 26px;
+      }
+
+      /*3rd circle*/
+      main > section:nth-child(3) > div {
+        width: 15vw;
+        height: 15vw;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: coral;
+        border-radius: 100%;
+      }
+      /*ijse text*/
+      main > section:nth-child(3) > div > h1 {
+        color: white;
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 148px;
+        height: 69px;
+        text-align: center;
+      }
+
+      /*common circle*/
+      main > div:nth-child(4) {
+        width: 15vw;
+        height: 15vw;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 15px solid red;
+        border-radius: 100%;
+      }
+      main > div:nth-child(5) {
+        width: 16.5vw;
+        height: 16.5vw;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 15px solid grey;
+        border-radius: 100%;
+      }
+
+
+  </style>
+</head>
+
+<body>
+
+<main>
+  <section>
+    <div><h1>Hello</h1></div>
+  </section>
+
+  <section>
+    <div><h1>Welcome To</h1></div>
+  </section>
+
+  <section>
+    <div><h1>Institute Of Software Engineering</h1></div>
+  </section>
+
+  <div></div>
+  <div></div>
+</main>
+
+</body>
+</html>
