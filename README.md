@@ -18,8 +18,8 @@ This my personal website and my projects and assignment are included it.
 
 ## Image Previews
 
-![Logo](assets/image/profileHome.png)
-![Logo](assets/image/profileAbout.png)
+![Logo](/assets/image/profileHome.png)
+![Logo](/assets/image/profileAbout.png)
 
 
 Developed by Tharuka Wijesekara
